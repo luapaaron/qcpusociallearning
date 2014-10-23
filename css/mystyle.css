@@ -1,0 +1,145 @@
+body {
+}
+
+.item-wrapper {
+    text-align:center;
+   
+}
+.main-wrapper {
+    margin-top:70px;
+    background-color:#F7F7F7;
+    padding:10px;
+}
+.table > thead > tr > th {
+  border-bottom: 0px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  vertical-align: middle;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+hr {
+  margin:0px;
+  padding:0px 0px 10px 0px;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left:50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px;
+  background-color:white;
+}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon{
+  background-image: url("../img/ui-icons.png");
+}
+
+.onepx{
+  width:1px;
+}
+
+.justify {
+  text-align:justify;
+}
+
+ p.msg-me {
+	text-align:right;
+	padding:0px;
+	color:red;
+}
+
+
+
+.profilepic
+{
+	border: 5px double black;
+	width: 100px;
+	height:100px;
+	position: relative;
+	top:70px;
+	left:5px;
+}
+
+.editprofilepic
+{
+border: 5px double black;
+	width: 100px;
+	height:100px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.profile-name
+{
+	font-size: 20px;
+	font-weight: bolder;
+
+   color: #ffffff; /* Will override color (regardless of order) */
+ 
+   position: absolute;
+   left:45%;
+   top: 50%;
+}
+
+.course,.gender
+{
+	font-size: .5em;
+   color: grey; /* Will override color (regardless of order) */
+   position: relative;
+   left:120px;
+   Bottom:10px;
+}
+
+.gender
+{
+	bottom:20px;
+}
+
+.description
+{
+	text-indent:2em;
+	margin-left:10px;
+}
+
+i.ago {
+    color:red;
+}
+#banner {
+    width: 100%;
+    height: auto;
+}
+#banner > img {
+    width: inherit;
+    height: inherit;
+}
+img#profile-pic {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+img.profile-pic-thumbnail {
+     width: 100px;
+    height: 100px;
+
+    margin-right: 10px;
+}
+img.profile-pic-small {
+    width: 50px;
+    height: 50px;
+
+    margin-right: 10px;
+}
+span.post-area {
+    position: relative;
+
+}
